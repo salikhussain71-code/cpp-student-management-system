@@ -202,7 +202,8 @@ To run this project, you need:
 Clone this repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/salikhussain71-code/cpp-student-management-system.git
+cd cpp-student-management-system
 ```
 
 Or download the repository as a ZIP file from GitHub.
@@ -226,7 +227,7 @@ Terminal → New Terminal
 ### Step 3: Compile the Program
 
 ```bash
-g++ StudentManagementSystem.cpp -o StudentManagementSystem
+g++ main.cpp -o StudentManagementSystem
 ```
 
 ### Step 4: Run the Program
