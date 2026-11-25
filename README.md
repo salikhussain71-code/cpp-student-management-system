@@ -6,12 +6,11 @@
 ![Type](https://img.shields.io/badge/Type-Console%20Application-black?style=for-the-badge)
 ![Level](https://img.shields.io/badge/Level-Beginner-brightgreen?style=for-the-badge)
 ![Course](https://img.shields.io/badge/Course-Programming%20Fundamentals-blue?style=for-the-badge)
-![Assignment](https://img.shields.io/badge/Assignment-2-purple?style=for-the-badge)
 ![University](https://img.shields.io/badge/University-Iqra%20University-darkred?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-A simple, menu-driven Student Management System developed in C++ for the Programming Fundamentals – Assignment 2 at Iqra University.
+A simple, menu-driven Student Management System developed in C++ on Windows as a Programming Fundamentals project at Iqra University.
 
 This project demonstrates the basic concepts of C++ programming, including variables, data types, input/output, switch statements, loops, if-else conditions, logical operators, and relational operators.
 
@@ -26,9 +25,9 @@ The system allows users to enter student information, display student records, c
 | Project Name | Student Management System |
 | Language | C++ |
 | Course | Programming Fundamentals |
-| Assignment | Assignment 2 |
 | Programming Level | Beginner |
 | Application Type | Console-Based Application |
+| Operating System | Windows |
 | Development Tool | Visual Studio Code |
 | Compiler | GCC (g++) |
 | University | Iqra University |
@@ -108,7 +107,7 @@ Terminates the program when the user selects option 6.
 ## Technologies Used
 
 - C++ Programming Language
-- GCC C++ Compiler
+- GCC C++ Compiler (MinGW-w64 on Windows)
 - Visual Studio Code
 - Standard C++ Input/Output Library (`iostream`)
 - Standard C++ String Library (`string`)
@@ -190,10 +189,10 @@ else
 
 To run this project, you need:
 
-- A computer with Windows, Linux, or macOS.
+- A Windows computer.
 - Visual Studio Code or another C++ editor.
-- GCC C++ compiler (g++).
-- A terminal or command prompt.
+- GCC C++ compiler (g++) installed through MinGW-w64.
+- Command Prompt, PowerShell, or the VS Code terminal.
 
 ---
 
@@ -206,9 +205,9 @@ git clone https://github.com/salikhussain71-code/cpp-student-management-system.g
 cd cpp-student-management-system
 ```
 
-Or download the repository as a ZIP file from GitHub.
+Or download the repository as a ZIP file from GitHub and extract it.
 
-Open the downloaded project folder in Visual Studio Code.
+Open the project folder in Visual Studio Code.
 
 ---
 
@@ -232,16 +231,8 @@ g++ main.cpp -o StudentManagementSystem
 
 ### Step 4: Run the Program
 
-For Windows:
-
 ```bash
 .\StudentManagementSystem.exe
-```
-
-For Linux or macOS:
-
-```bash
-./StudentManagementSystem
 ```
 
 ---
@@ -285,7 +276,7 @@ Grade: A
 
 ## Important Project Limitations
 
-This project follows the restrictions of the Programming Fundamentals assignment.
+This project is built with beginner-level C++ concepts only.
 
 - It stores one student record at a time.
 - Student information is stored in program variables.
@@ -293,7 +284,7 @@ This project follows the restrictions of the Programming Fundamentals assignment
 - Information is not permanently saved after the program closes.
 - It does not use arrays, functions, classes, structures, databases, or file handling.
 
-These limitations are intentional because the assignment requires basic C++ programming concepts only.
+These limitations are intentional, to keep the project focused on core C++ fundamentals.
 
 ---
 
@@ -324,8 +315,6 @@ Possible improvements for future versions include:
 - Subject-wise result reports.
 - A graphical user interface.
 
-These features are not included in the current assignment version.
-
 ---
 
 ## Author
@@ -337,11 +326,9 @@ Iqra University, Islamabad, Pakistan
 
 ---
 
-## Academic Purpose
+## Purpose
 
-This project was developed as part of the Programming Fundamentals – Assignment 2.
-
-The purpose is to demonstrate practical understanding of basic C++ programming concepts through a simple Student Management System.
+This project was developed to practice and demonstrate basic C++ programming concepts through a simple Student Management System.
 
 ---
 
